@@ -1,31 +1,18 @@
+{% extends 'base.html' %}
+
+
 {% load static %}
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Workshop &mdash; Colorlib Website Template</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-    <link rel="stylesheet" href="{% static 'fonts/icomoon/style.css' %}">
-    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
-    <link rel="stylesheet" href="{% static 'css/jquery-ui.css' %}">
-    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/bootstrap-datepicker.css' %}">
-    <link rel="stylesheet" href="{% static 'fonts/flaticon/font/flaticon.css' %}">
-    <link rel="stylesheet" href="{% static 'css/aos.css' %}">
 
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-  </head>
+{% block content %}
+
   <body>
   
   <div class="site-wrap">
 
     <div class="site-mobile-menu">
       <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
+        <div class="site-mobile-mensu-close mt-3">
           <span class="icon-close2 js-menu-toggle"></span>
         </div>
       </div>
@@ -36,17 +23,17 @@
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-11 col-xl-2">
-            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">Work<span class="text-primary">shop</span> </a></h1>
+            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">Fes<span class="text-primary">Box</span> </a></h1>
           </div>
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="speakers.html">Speakers</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="contact.html">Contacts</a></li>
-                <li class="cta"><a href="buy-tickets.html">Buy Tickets</a></li>
+                <li class="active"><a href="index.html">Нүүр хуудас</a></li>
+                <li><a href="about.html">Бидний тухай</a></li>
+                <li><a href="speakers.html">Хөгжүүлэгчид</a></li>
+                <li><a href="news.html">Мэдээ</a></li>
+                <li><a href="contact.html">Бидэнтэй холбоо бариарай</a></li>
+                <li class="cta"><a href="buy-tickets.html">Апп татаж авах</a></li>
               </ul>
             </nav>
           </div>
@@ -60,10 +47,10 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-10">
-            <span class="d-block mb-3 caption" data-aos="fade-up" data-aos-delay="100">Conference 2019</span>
-            <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="200">Web Design Conference 2019</h1>
-            <span class="d-block mb-5 caption" data-aos="fade-up" data-aos-delay="300">September 6th-7th, Minnesota, United States</span>
-            <a href="#" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Buy Tickets</span></a>
+            <span class="d-block mb-3 caption" data-aos="fade-up" data-aos-delay="100">App will release in 2021 Free your mind</span>
+            <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="200">FESBOX</h1>
+            <span class="d-block mb-5 caption" data-aos="fade-up" data-aos-delay="300">September 6th-7th, Ulaanbaatar, Mongolia</span>
+            <a href="#" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Download app</span></a>
           </div>
         </div>
       </div>
@@ -77,7 +64,7 @@
         <div class="row mb-5">
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="site-section-heading">
-              <h2>Speakers</h2>
+              <h2>Хөгжүүлэгчид</h2>
             </div>
           </div>
           <div class="col-lg-5 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="200">
@@ -87,15 +74,15 @@
 
         <div class="row align-items-center speaker">
           <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
-            <img src="{% static 'images/person_1.jpg' %}" alt="Image" class="img-fluid">
+            <img src="{% static 'images/timo.jpg' %}" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-6 ml-auto">
-            <h2 class="text-white mb-4 name" data-aos="fade-right" data-aos-delay="200">Emely Peters</h2>
+            <h2 class="text-white mb-4 name" data-aos="fade-right" data-aos-delay="200">Temuulen Timo</h2>
             <div class="bio pl-lg-5">
-              <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-right" data-aos-delay="300">Web Designer</span>
+              <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-right" data-aos-delay="300">Вэб хөгжүүлэгч</span>
               <p class="mb-4" data-aos="fade-right" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus. Minima architecto impedit eaque molestiae dicta quam. Cum ducimus. Culpa distinctio aperiam</p>
               <p data-aos="fade-right" data-aos-delay="500">
-                Follow Emely &mdash;
+                Follow Temuulen Timo &mdash;
                 <a href="#" class="p-2"><span class="icon-facebook"></span></a>
                 <a href="#" class="p-2"><span class="icon-twitter"></span></a>
                 <a href="#" class="p-2"><span class="icon-github"></span></a>
@@ -106,15 +93,15 @@
 
         <div class="row align-items-center speaker">
           <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2" data-aos="fade" data-aos-delay="100">
-            <img src="{% static 'images/person_2.jpg' %}" alt="Image" class="img-fluid">
+            <img src="{% static 'images/tugu.jpg' %}" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-6 ml-auto order-lg-1">
-            <h2 class="text-white mb-4 name" data-aos="fade-left" data-aos-delay="200">Alex Anchor</h2>
+            <h2 class="text-white mb-4 name" data-aos="fade-left" data-aos-delay="200">Tuguldur Amartuvshin</h2>
             <div class="bio pr-lg-5">
-              <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-left" data-aos-delay="300">Web Designer</span>
+              <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-left" data-aos-delay="300">Төслийн менежер</span>
               <p class="mb-4" data-aos="fade-left" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus. Minima architecto impedit eaque molestiae dicta quam. Cum ducimus. Culpa distinctio aperiam</p>
               <p data-aos="fade-left" data-aos-delay="500">
-                Follow Alex &mdash;
+                Follow Tuguldur Amartuvshin &mdash;
                 <a href="#" class="p-2"><span class="icon-facebook"></span></a>
                 <a href="#" class="p-2"><span class="icon-twitter"></span></a>
                 <a href="#" class="p-2"><span class="icon-github"></span></a>
@@ -125,15 +112,15 @@
 
         <div class="row align-items-center speaker">
           <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
-            <img src="{% static 'images/person_3.jpg' %}" alt="Image" class="img-fluid">
+            <img src="{% static 'images/amaraa.jpg' %}" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-6 ml-auto">
-            <h2 class="text-white mb-4 name" data-aos="fade-right" data-aos-delay="200">Aaron Thomas</h2>
+            <h2 class="text-white mb-4 name" data-aos="fade-right" data-aos-delay="200">Амарболд Б.</h2>
             <div class="bio pl-lg-5">
-              <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-right" data-aos-delay="300">Web Designer</span>
+              <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-right" data-aos-delay="300">Технологийн ахлах ажилтан</span>
               <p class="mb-4" data-aos="fade-right" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus. Minima architecto impedit eaque molestiae dicta quam. Cum ducimus. Culpa distinctio aperiam</p>
               <p data-aos="fade-right" data-aos-delay="500">
-                Follow Aaron &mdash;
+                Follow Амарболд Б. &mdash;
                 <a href="#" class="p-2"><span class="icon-facebook"></span></a>
                 <a href="#" class="p-2"><span class="icon-twitter"></span></a>
                 <a href="#" class="p-2"><span class="icon-github"></span></a>
@@ -145,15 +132,16 @@
       
         <div class="row align-items-center speaker">
           <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2" data-aos="fade" data-aos-delay="100">
-            <img src="{% static 'images/person_4.jpg' %}" alt="Image" class="img-fluid">
+            <img src="{% static 'images/bataa.jpg' %}" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-6 ml-auto order-lg-1">
-            <h2 class="text-white mb-4 name" data-aos="fade-left" data-aos-delay="200">Chris Mathews</h2>
+            <h2 class="text-white mb-4 name" data-aos="fade-left" data-aos-delay="200">Jester Special-ed
+            </h2>
             <div class="bio pr-lg-5">
-              <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-left" data-aos-delay="300">Web Designer</span>
+              <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-left" data-aos-delay="300">График дизайнер</span>
               <p class="mb-4" data-aos="fade-left" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus. Minima architecto impedit eaque molestiae dicta quam. Cum ducimus. Culpa distinctio aperiam</p>
               <p data-aos="fade-left" data-aos-delay="500">
-                Follow Chris &mdash;
+                Follow Jester &mdash;
                 <a href="#" class="p-2"><span class="icon-facebook"></span></a>
                 <a href="#" class="p-2"><span class="icon-twitter"></span></a>
                 <a href="#" class="p-2"><span class="icon-github"></span></a>
@@ -250,7 +238,7 @@
         <div class="row mb-5">
           <div class="col-lg-4 ">
             <div class="site-section-heading" data-aos="fade-up">
-              <h2>Sponsors</h2>
+              <h2>Ивээн тэтгэгч</h2>
             </div>
           </div>
           <div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
@@ -293,7 +281,8 @@
         <div class="row mb-5">
           <div class="col-lg-4">
             <div class="site-section-heading" data-aos="fade-up">
-              <h2>News</h2>
+              <h2>Мэдээ </h2>
+          
             </div>
           </div>
           <div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
@@ -304,11 +293,11 @@
         <div class="row mb-5">
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 blog-entry"  data-aos="fade-up" data-aos-delay="200">
             <a href="#" class="d-block mb-4">
-              <img src="{% static 'images/person_1.jpg' %}" alt="Image" class="img-fluid"> 
+              <img src="{% static 'images/tugu.jpg' %}" alt="Image" class="img-fluid"> 
             </a>
             <h2 class="mb-4"><a href="#">Design your open source strategy</a></h2>
             <div class="mb-4 post-meta d-flex align-items-center">
-              <div class="mr-2"><img src="{% static 'images/person_1.jpg' %}" alt="Image" class="img-fluid"></div>
+              <div class="mr-2"><img src="{% static 'images/tugu.jpg' %}" alt="Image" class="img-fluid"></div>
               <div><span>By <a href="#">Emely Peters</a></span> &mdash; <span>Sep. 10, 2019</span></div> 
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.
@@ -316,11 +305,11 @@
 
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 blog-entry" data-aos="fade-up" data-aos-delay="300">
             <a href="#" class="d-block mb-4">
-              <img src="{% static 'images/person_1.jpg' %}" alt="Image" class="img-fluid"> 
+              <img src="{% static 'images/timo.jpg' %}" alt="Image" class="img-fluid"> 
             </a>
             <h2 class="mb-4"><a href="#">Design your open source strategy</a></h2>
             <div class="mb-4 post-meta d-flex align-items-center">
-              <div class="mr-2"><img src="{% static 'images/person_1.jpg' %}" alt="Image" class="img-fluid"></div>
+              <div class="mr-2"><img src="{% static 'images/timo.jpg' %}" alt="Image" class="img-fluid"></div>
               <div><span>By <a href="#">Emely Peters</a></span> &mdash; <span>Sep. 10, 2019</span></div> 
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.
@@ -328,11 +317,11 @@
 
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 blog-entry" data-aos="fade-up" data-aos-delay="400">
             <a href="#" class="d-block mb-4">
-              <img src="{% static 'images/person_1.jpg' %}" alt="Image" class="img-fluid"> 
+              <img src="{% static 'images/amaraa.jpg' %}" alt="Image" class="img-fluid"> 
             </a>
             <h2 class="mb-4"><a href="#">Design your open source strategy</a></h2>
             <div class="mb-4 post-meta d-flex align-items-center">
-              <div class="mr-2"><img src="{% static 'images/person_1.jpg' %}" alt="Image" class="img-fluid"></div>
+              <div class="mr-2"><img src="{% static 'images/amaraa.jpg' %}" alt="Image" class="img-fluid"></div>
               <div><span>By <a href="#">Emely Peters</a></span> &mdash; <span>Sep. 10, 2019</span></div> 
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.
@@ -351,7 +340,7 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-4">
-            <h2 class="footer-heading text-uppercase mb-4">About Event</h2>
+            <h2 class="footer-heading text-uppercase mb-4">About Release</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit aliquid quibusdam fugit architecto.</p>
           </div>
           <div class="col-md-3 ml-auto">
@@ -379,7 +368,7 @@
               <div class="border-top pt-5">
               <p>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-primary" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+              Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | Fes <i class="icon-heart text-primary" aria-hidden="true"></i> Box <a href="https://colorlib.com" target="_blank" ></a>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               </p>
             </div>
@@ -389,20 +378,7 @@
     </footer>
     
   </div>
-
-  <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
-  <script src="{% static 'js/jquery-migrate-3.0.1.min.js' %}"></script>
-  <script src="{% static 'js/jquery-ui.js' %}"></script>
-  <script src="{% static 'js/popper.min.js' %}"></script>
-  <script src="{% static 'js/bootstrap.min.js' %}"></script>
-  <script src="{% static 'js/owl.carousel.min.js' %}"></script>
-  <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
-  <script src="{% static 'js/jquery.countdown.min.js' %}"></script>
-  <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
-  <script src="{% static 'js/bootstrap-datepicker.min.js' %}"></script>
-  <script src="{% static 'js/aos.js' %}"></script>
-
-  <script src="{% static 'js/main.js' %}"></script>
     
   </body>
 </html>
+{% endblock %}

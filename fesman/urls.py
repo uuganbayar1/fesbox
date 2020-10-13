@@ -15,8 +15,26 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+#from fesdemo.views import Home, About, contact_us 
+
+#urlpatterns = [
+    #path('polls/', include('fesdemo.urls')),
+    #path('admin/', admin.site.urls),
+#]
+
+
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('fesdemo.urls'))
+    path('', include('fesdemo.urls')),
+    #path('admin/', admin.site.urls),
+    path('About', include('fesdemo.urls')),
+    #path('','About', include('fesdemo.urls'))
+    #path('', include('fesdemo.urls'))
+    #path('About/', include('fesdemo.urls'))
 ]
+
+
+#urlpatterns = [
+    #path('admin/', admin.site.urls),
+    #path('', include('fesdemo.urls'))
+#]
