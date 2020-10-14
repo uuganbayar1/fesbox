@@ -5,4 +5,4 @@ def Home(request):
 
 
 def About(request):
-	return render(request, 'about.html', {})	
+	return render(request, 'About.html', {})	
